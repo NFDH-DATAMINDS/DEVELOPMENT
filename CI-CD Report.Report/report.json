@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.63\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.63\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -18,27 +18,6 @@
     }
   ],
   "sections": [
-    {
-      "config": "{}",
-      "displayName": "Page 1",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "106f98a07c7e0b196249",
-      "ordinal": 2,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"8229fb0cd1cda48365c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.931034482758621,\"y\":0,\"z\":0,\"width\":1120.2206896551725,\"height\":670.6758620689654,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(financials.Manufacturing Price)\"},{\"queryRef\":\"Sum(financials.Sales)\"}],\"Group\":[{\"queryRef\":\"financials.Segment\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"financials\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Manufacturing Price\"}},\"Function\":0},\"Name\":\"Sum(financials.Manufacturing Price)\",\"NativeReferenceName\":\"Sum of Manufacturing Price\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Sales\"}},\"Function\":0},\"Name\":\"Sum(financials.Sales)\",\"NativeReferenceName\":\"Sum of Sales\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"Segment\"},\"Name\":\"financials.Segment\",\"NativeReferenceName\":\"Segment\"}]},\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 670.68,
-          "width": 1120.22,
-          "x": 9.93,
-          "y": 0.00,
-          "z": 0.00
-        }
-      ],
-      "width": 1280.00
-    },
     {
       "config": "{}",
       "displayName": "FORSIDE",
